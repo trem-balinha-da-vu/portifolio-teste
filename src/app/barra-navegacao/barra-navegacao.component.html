@@ -1,0 +1,14 @@
+<div class="big-container">
+  <p-tabMenu class="container" *ngIf="items && items.length > 0" [model]="items" >
+    <ng-template class = "items" pTemplate="item" let-item>
+      <a class="p-menuitem-link">
+          <div>
+              <span class="icone"[class]="item.icon"></span>
+              <span> {{ item.label }}</span>
+          </div>
+      </a>
+    </ng-template>
+  </p-tabMenu>
+</div>
+
+

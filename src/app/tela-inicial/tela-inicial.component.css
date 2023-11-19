@@ -1,0 +1,25 @@
+.container{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.sol, .artes{
+  color: #000;
+  font-family: Playfair Display;
+  display: block;
+  font-size: 200px;
+  font-style: bold;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sol{
+  margin-left: 450px;
+  margin-top: 0px;
+}
+
+app-barra-navegacao{
+  margin-bottom: 0;
+}

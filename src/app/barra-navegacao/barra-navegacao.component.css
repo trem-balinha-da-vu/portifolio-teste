@@ -1,0 +1,42 @@
+@import "primeicons/primeicons.css";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.big-container{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #FFDE5A;
+  max-height: 60px;
+}
+
+.container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items:center;
+  justify-content: flex-end; /* Alinha os itens no canto direito */
+  margin:0;
+  font-family: 'Playfair Display', serif;
+  margin-left: auto;
+}
+
+img{
+  width: 250px;
+  height: 30px;
+  margin-top: 5px;
+  align-items:center;
+  margin-right: 100px;
+
+}
+
+.p-menuitem-link {
+  margin:25px;
+  font-weight: 100;
+
+}
+
+.icone{
+  margin-right: 7px;
+}
+/*#FFDE5A
+  <img src="assets/logo-nome.png" alt = "logo">
+*/
