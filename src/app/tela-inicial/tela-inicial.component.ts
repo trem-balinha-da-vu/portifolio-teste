@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BarraNavegacaoComponent } from '../barra-navegacao/barra-navegacao.component';
+import { CarrosselComponent } from '../carrossel/carrossel.component';
 
 
 @Component({
@@ -8,7 +9,8 @@ import { BarraNavegacaoComponent } from '../barra-navegacao/barra-navegacao.comp
   standalone: true,
   imports: [
     CommonModule,
-    BarraNavegacaoComponent
+    BarraNavegacaoComponent,
+    CarrosselComponent
   ],
   templateUrl: './tela-inicial.component.html',
   styleUrl: './tela-inicial.component.css'

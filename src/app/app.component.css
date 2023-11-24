@@ -1,8 +1,6 @@
-.background{
-  background-color: #FFDE5A;
 
+router-outlet{
+  margin: 0px;
+  padding: 0px;
 }
 
-*{
-  margin:0;
-}

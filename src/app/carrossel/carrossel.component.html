@@ -1,0 +1,9 @@
+<p-carousel [value]="products" [numVisible]="3" [numScroll]="numScroll" [responsiveOptions]="responsiveOptions">
+  <ng-template let-product pTemplate="item">
+      <div class="content">
+          <div class="mb-3">
+              <img src="/assets/telas/{{ product.image }}.jpeg" [alt]="product.name" class="w-6 shadow-2" />
+          </div>
+      </div>
+  </ng-template>
+</p-carousel>
